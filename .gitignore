@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Video/audio and generated output (never commit footage)
+*.mp4
+*.mov
+*.mkv
+*.wav
+clips/
+out/
+*.webm
+*.avi
+*.mp3
+*.m4a
+.DS_Store
