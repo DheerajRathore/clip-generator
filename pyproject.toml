@@ -11,7 +11,7 @@ requires-python = ">=3.11"
 dependencies = ["numpy", "scipy"]
 
 [project.optional-dependencies]
-dev = ["pytest", "ruff", "mypy", "pre-commit"]
+dev = ["pytest", "ruff", "mypy", "pre-commit", "scipy-stubs"]
 
 [project.scripts]
 clipgen = "clip_generator.cli:main"
